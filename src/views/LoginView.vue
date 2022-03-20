@@ -5,7 +5,7 @@
   <div class="grey darken-1 empty-layout">
     <form class="card auth-card">
       <div class="card-content">
-        <span class="card-title">Домашняя бухгалтерия</span>
+        <span class="card-title">Money Manager</span>
         <div class="input-field">
           <input id="email" type="text" class="validate" />
           <label for="email">Email</label>
