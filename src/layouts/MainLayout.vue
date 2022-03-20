@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { RouterView } from 'vue-router';
 </script>
 
 <template>
@@ -58,9 +57,7 @@ import { RouterView } from 'vue-router';
 
     <main class="app-content">
       <div class="app-page">
-        <slot>
-          <router-view></router-view>
-        </slot>
+        <slot></slot>
       </div>
     </main>
 
