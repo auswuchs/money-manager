@@ -1,4 +1,5 @@
 <script setup lang="ts">
+const emit = defineEmits(['toggleSidebar'])
 
 </script>
 
@@ -6,7 +7,7 @@
   <nav class="navbar grey lighten-1">
     <div class="nav-wrapper">
       <div class="navbar-left">
-        <a href="#">
+        <a href="#" @click="emit('toggleSidebar')">
           <i class="material-icons black-text">dehaze</i>
         </a>
         <span class="black-text">12.12.12</span>
